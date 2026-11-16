@@ -1,0 +1,45 @@
+{
+  "id": "link-skins",
+  "name": "Link Skins",
+  "version": "0.4.4",
+  "author": "Jack",
+  "description": "Pick a skin for Link. Skins are folders in mods\\link-skins\\skins.",
+  "coop": "own",
+  "api": 1,
+  "code": {
+    "windows": "link_skins.dll"
+  },
+  "settings": [
+    {
+      "key": "skin",
+      "name": "Link's skin",
+      "type": "choice",
+      "help": "No restart: save and quit to the title screen, then load your save (or change age). Tunics change when put on again.",
+      "default": "none",
+      "choices": [
+        {
+          "value": "none",
+          "name": "The game's own Link"
+        }
+      ]
+    },
+    {
+      "key": "table",
+      "name": "Size table",
+      "type": "choice",
+      "restart": true,
+      "help": "Co-op hides the other players while a mod brings its own size table. 'None' is a test: skins without one.",
+      "default": "own",
+      "choices": [
+        {
+          "value": "own",
+          "name": "Built by Link Skins"
+        },
+        {
+          "value": "none",
+          "name": "None (co-op test)"
+        }
+      ]
+    }
+  ]
+}

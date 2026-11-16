@@ -1,0 +1,1 @@
+Link Skins keeps every skin's files here. Do not edit: change the skins in skins/ instead.

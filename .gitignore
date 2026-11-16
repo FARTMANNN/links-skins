@@ -1,0 +1,15 @@
+# built files
+*.dll
+*.o
+/build/
+/zstd/
+# never commit: keys, game files, skins made from game files
+dev.key
+*.bfres
+*.bfres.zs
+*.bntx
+*.bntx.zs
+*.rsizetable.zs
+romfs.txt
+*.lib
+*.pdb
